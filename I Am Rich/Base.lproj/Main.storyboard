@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Rich" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Rich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y9X-UL-R9S">
+                                <rect key="frame" x="65" y="95" width="284" height="80"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="55"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="0.0"/>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="40"/>
+                                </variation>
+                                <variation key="displayGamut=sRGB-heightClass=compact-widthClass=compact">
+                                    <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="QqU-vQ-QEm">
+                                <rect key="frame" x="51" y="259.66666666666669" width="312" height="377.00000000000006"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24556323076621223" green="0.7196496390058682" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Y9X-UL-R9S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="8lm-mq-vFT"/>
+                            <constraint firstItem="QqU-vQ-QEm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HJ4-hM-Ymd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QqU-vQ-QEm" secondAttribute="trailing" constant="71" id="KnS-ay-XvT"/>
+                            <constraint firstItem="QqU-vQ-QEm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-20" id="LtT-SW-MyU"/>
+                            <constraint firstItem="Y9X-UL-R9S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oxj-eI-ioK"/>
+                            <constraint firstItem="Y9X-UL-R9S" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="51" id="foX-gz-cSe"/>
+                            <constraint firstItem="Y9X-UL-R9S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j2n-67-Cw2">
+                                <variation key="widthClass=compact" constant="-20"/>
+                            </constraint>
+                            <constraint firstItem="Y9X-UL-R9S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-20" id="oRv-i4-Sbl">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="Y9X-UL-R9S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="20" id="pis-Oq-A7E"/>
+                            <constraint firstItem="QqU-vQ-QEm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="pyJ-CU-bbc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y9X-UL-R9S" secondAttribute="bottom" constant="687" id="s4Q-fF-LN7"/>
+                            <constraint firstItem="Y9X-UL-R9S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wQB-vF-mOB"/>
+                            <constraint firstItem="Y9X-UL-R9S" firstAttribute="centerX" secondItem="QqU-vQ-QEm" secondAttribute="centerX" id="xUV-yn-p22"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="j2n-67-Cw2"/>
+                                <exclude reference="oRv-i4-Sbl"/>
+                                <exclude reference="pis-Oq-A7E"/>
+                                <exclude reference="HJ4-hM-Ymd"/>
+                                <exclude reference="LtT-SW-MyU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="HJ4-hM-Ymd"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="j2n-67-Cw2"/>
+                                <include reference="oRv-i4-Sbl"/>
+                                <include reference="pis-Oq-A7E"/>
+                                <include reference="LtT-SW-MyU"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="131.78410794602701"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diamond" width="515" height="377"/>
+    </resources>
+</document>
